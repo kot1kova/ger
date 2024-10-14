@@ -1,0 +1,32 @@
+.contact-page {
+	.hero {
+		padding-top: 125px;
+		&__inner {
+			padding-bottom: 59px;
+			border-bottom: $light-orange 1px solid;
+		}
+		&__wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		&__title {
+			max-width: 494px;
+			line-height: 90%;
+			width: 100%;
+			font-weight: 800;
+			display: flex;
+			flex-direction: column;
+			&-two {
+				margin-left: auto;
+			}
+		}
+		&__description {
+			max-width: 588px;
+			width: 100%;
+		}
+	}
+	.contact-page-form {
+		margin-top: 100px;
+	}
+}

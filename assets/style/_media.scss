@@ -1,0 +1,467 @@
+@media screen and (max-width: 1260px) {
+}
+
+@media screen and (max-width: 1060px) {
+}
+@media screen and (max-width: 1024px) {
+  .title-underlined::after {
+    width: 120%;
+  }
+  // .faq__title {
+  //   font-size: 70px;
+  // }
+  .main-page {
+    .hero__inner {
+      height: 740px;
+    }
+    .hero__title {
+      &-two {
+        padding-right: 10px;
+        margin-top: -40px;
+      }
+      &-four {
+        padding-right: 10px;
+        top: 15px;
+      }
+    }
+    .hero .btn-hero {
+      right: 20px;
+    }
+    .services__wrapper {
+      grid-template-columns: 1fr 1fr;
+      // grid-column: 3;
+      // grid-row: 3;
+      .services__item:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+      }
+      .services__item:nth-child(5) {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+      }
+    }
+    .swiper-slide {
+      padding: 20px !important;
+    }
+  }
+
+  .about-page {
+    .hero__wrapper {
+      align-items: center;
+    }
+    .advantage__item {
+      justify-content: space-between;
+      gap: 0px;
+    }
+  }
+  .portfolio-page {
+    .hero__description {
+      max-width: 490px;
+    }
+  }
+  .contact-page {
+    .hero__description {
+      max-width: 450px;
+      width: 100%;
+    }
+  }
+  .footer {
+    .footer__wrapper {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
+@media screen and (max-width: 990px) {
+  .main-page {
+    // .faq__title {
+    //   font-size: 66px;
+    // }
+    .faq__question {
+      font-size: 33px;
+    }
+    .swiper-slide {
+      // width: 400px;
+      // height: 300px;
+      padding: 38px !important;
+    }
+  }
+  .about-page {
+    // .faq__title {
+    //   font-size: 66px;
+    // }
+    .faq__question {
+      font-size: 33px;
+    }
+  }
+  .contact-page {
+    .hero__description {
+      max-width: 420px;
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 52px;
+  }
+  .form__title {
+    font-size: 52px;
+  }
+  .header {
+    .nav {
+      display: none;
+    }
+  }
+  .form__content {
+    flex-direction: column-reverse;
+  }
+
+  .form__content {
+    align-items: center;
+  }
+  .form__img {
+    min-height: 300px;
+    // width: 95%;
+    // max-width: 343px;
+  }
+  .form__form {
+    max-width: 100%;
+  }
+
+  .main-page {
+    .hero__inner {
+      // margin: 0;
+      // margin-top: 50px;
+      height: 650px;
+    }
+    .hero__title {
+      margin: 0;
+      margin-top: 50px;
+      font-size: 90px;
+      &-two {
+        margin-top: -10px;
+        margin-left: 0;
+      }
+    }
+    .stats__inner {
+      padding: 0;
+      border: none;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 40px;
+      // .stats__item {
+      //   border-bottom: $br-orange;
+      // }
+    }
+    .services {
+      &__wrapper {
+        gap: 24px;
+      }
+    }
+    .benefits {
+      margin-top: 60px;
+    }
+
+    .reviews {
+      margin-top: 60px;
+      .reviews__wrapper {
+        margin-top: 28px;
+      }
+      .custom-prev,
+      .custom-next {
+        width: 56px !important;
+        height: 56px !important;
+        padding: 17px 12px !important;
+      }
+      .custom-next {
+        padding: 19px 13px !important;
+      }
+    }
+    .faq {
+      margin-top: 60px;
+      &__question {
+        font-size: 28px;
+      }
+      &__numb {
+        margin-right: 20px;
+        font-size: 60px;
+      }
+      &__close,
+      &__open {
+        padding: 12px;
+        width: 56px;
+        height: 56px;
+      }
+    }
+    .benefits__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    .benefits__img {
+      margin-top: 20px;
+      min-height: 300px;
+      max-width: 100%;
+    }
+    .accordion {
+      margin-top: 10px;
+      max-width: 100%;
+    }
+    .main-page-form {
+      margin-top: 60px;
+    }
+  }
+  .about-page {
+    .hero__wrapper {
+      padding: 40px 0;
+      flex-direction: column;
+      align-items: normal;
+      gap: 20px;
+    }
+    .stats {
+      margin-top: 30px;
+    }
+    .stats__inner {
+      padding: 0;
+      border: none;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 40px;
+      // .stats__item {
+      //   border-bottom: $br-orange;
+      // }
+    }
+    .why {
+      &__inner {
+        flex-direction: column-reverse;
+      }
+      &__title {
+        flex-direction: row;
+        gap: 12px;
+      }
+      &__info {
+        max-width: 100%;
+      }
+      &__img {
+        max-width: 100%;
+      }
+      &__text {
+        margin-top: 10px;
+      }
+    }
+    .faq {
+      margin-top: 60px;
+      &__question {
+        font-size: 28px;
+      }
+      &__numb {
+        margin-right: 20px;
+        font-size: 60px;
+      }
+      &__wrapper {
+        // width: 95%;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+      &__close,
+      &__open {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    .facts {
+      margin-top: 60px;
+    }
+    .facts__wrapper {
+      display: flex;
+      justify-items: center;
+      flex-direction: column-reverse;
+      // grid-template-columns: 1fr;
+    }
+    .facts__img {
+      max-width: 100%;
+      min-height: 300px;
+    }
+    .facts__card {
+      max-width: 100%;
+    }
+
+    // .facts {
+    //   &__card {
+    //     width: 100%;
+    //   }
+    // }
+
+    .advantage__wrapper {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .about-page-form {
+      margin-top: 60px;
+    }
+  }
+  .portfolio-page {
+    .hero__inner {
+      border: none;
+    }
+    .hero__wrapper {
+      padding: 60px 0;
+      flex-direction: column;
+      align-items: normal;
+    }
+    .projects__wrapper {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .contact-page {
+    .hero {
+      padding-top: 60px;
+    }
+    .hero__wrapper {
+      flex-direction: column;
+      align-items: normal;
+    }
+    .hero__title {
+      flex-direction: row;
+      &-two {
+        margin: 0;
+        margin-left: 30px;
+      }
+    }
+    .hero__description {
+      margin-top: 24px;
+    }
+    .contact-page-form {
+      margin-top: 60px;
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  h2 {
+    font-size: 32px;
+  }
+  .form__subtitle {
+    font-size: 16px;
+  }
+  .main-page {
+    .hero__inner {
+      height: 520px;
+    }
+    .hero__title {
+      font-size: 48px;
+    }
+    .hero__social {
+      justify-content: space-around;
+    }
+    .hero__icon {
+      max-width: 40px;
+    }
+    .hero .btn-hero {
+      bottom: 90px;
+    }
+    .services__wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .title-underlined::after {
+      content: "";
+      left: 0;
+      background-image: url(../img/orange_line_mob.png);
+      bottom: -70%;
+    }
+    .stats__numb {
+      font-size: 40px;
+    }
+    .stats__text {
+      margin-top: 0;
+      font-size: 12px;
+    }
+    .faq__question {
+      font-size: 24px;
+    }
+    .faq__numb {
+      font-size: 40px;
+    }
+    .faq__close,
+    .faq__open {
+      width: 44px;
+      height: 44px;
+    }
+    .benefits__img {
+      border-radius: $brr-small;
+      min-height: 112px;
+    }
+    .subtitle-underlined {
+      display: none;
+    }
+    .accordion__title {
+      font-size: 20px !important;
+    }
+
+    .accordion__icon-open,
+    .accordion__icon-close {
+      width: 40px;
+      height: 40px;
+      padding: 5px;
+    }
+    .accordion__text {
+      font-size: 14px;
+    }
+
+    .reviews__wrapper {
+      padding-bottom: 120px;
+      position: relative;
+    }
+
+    .reviews__slider-btn {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  .form__img {
+    border-radius: $brr-small;
+    width: 95%;
+    min-height: 108px;
+  }
+
+  .footer__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .one {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer .three {
+    margin-top: 70px;
+  }
+  .footer .two {
+    margin-top: 50px;
+  }
+  .footer__social {
+    position: absolute;
+    top: 87px;
+    right: 0;
+    p {
+      font-size: 24px;
+    }
+  }
+  .footer__list {
+    margin-top: 18px;
+  }
+  .footer__social svg {
+    width: 43px;
+    height: 43px;
+  }
+  .footer__list svg {
+    width: 28px;
+  }
+  .footer__copyright {
+    flex-direction: column;
+  }
+  .footer__social ul {
+    display: grid;
+    gap: 36px;
+    grid-template-columns: 2fr 2fr;
+  }
+  .footer__list .icon-map {
+    width: 40px;
+  }
+}

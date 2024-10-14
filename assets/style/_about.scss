@@ -1,0 +1,208 @@
+.about-page {
+  .hero {
+    &__wrapper {
+      padding: 116px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__info {
+      max-width: 588px;
+      width: 100%;
+    }
+    &__title {
+      font-weight: $fw-600;
+    }
+
+    &__subtitle {
+      font-size: $fz-blok;
+      font-weight: $fw-600;
+    }
+    &__description {
+      margin-top: 24px;
+    }
+  }
+
+  .stats {
+    // margin-top: 64px;
+    &__inner {
+      padding: 60px 0;
+      display: grid;
+      justify-items: center;
+      width: 95%;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: $br-light-orange;
+      border-bottom: $br-light-orange;
+    }
+
+    &__numb {
+      font-size: $stats-large;
+      span {
+        color: $gray;
+      }
+    }
+    &__text {
+      margin-top: -16px;
+      font-size: $fz-text;
+    }
+  }
+  .why {
+    margin-top: 100px;
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    &__img {
+      max-width: 588px;
+      width: 100%;
+      border-radius: $brr-big;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 320px;
+      //   img {
+      //     // height: 319px;
+      //   }
+    }
+    &__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: 589px;
+      width: 100%;
+    }
+    &__title {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .advantage {
+    margin-top: 40px;
+    &__wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    &__item {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    &__numb {
+      font-size: $h1-title;
+      color: $green;
+      border-bottom: $br-black;
+    }
+    &__title {
+      //   margin-top: 24px;
+      font-size: $fz-medium;
+      font-weight: $fw-500;
+      //   line-height: 0.48;
+    }
+  }
+
+  .facts {
+    margin-top: 120px;
+    &__wrapper {
+      margin-top: 48px;
+      //   display: flex;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    &__card {
+      max-width: 588px;
+      background-color: $beige;
+      border-radius: $brr-big;
+      padding: 8px 48px 40px;
+    }
+    &__subtitle {
+      margin-top: 48px;
+      font-size: $fz-blok;
+      font-weight: $fw-600;
+    }
+    &__img {
+      max-width: 588px;
+      width: 100%;
+      max-height: 100%;
+      //   background-image: url(../img/img-facts.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: $brr-big;
+      min-height: 500px;
+      //   img {
+      //   }
+    }
+  }
+  //   .faq {
+  //     margin-top: 120px;
+  //     &__wrapper {
+  //       margin-top: 60px;
+
+  //       display: flex;
+  //       flex-direction: column;
+  //       gap: 50px;
+  //     }
+  //     &__item {
+  //       border-bottom: $br-black;
+  //       // display: grid;
+  //       // justify-content: space-between;
+  //       // align-items: center;
+  //       // padding: 10px 0;
+  //     }
+  //     &__numb {
+  //       // margin-right: 130px;
+  //       font-size: $h2-title;
+  //     }
+  //     &__question {
+  //       display: grid;
+  //       grid-template-columns: 0.5fr 2fr 0.2fr;
+  //       align-items: center;
+  //       // display: flex;
+  //       // justify-content: space-between;
+  //       cursor: pointer;
+  //       font-size: $fz-large;
+  //     }
+
+  //     &__open,
+  //     &__close {
+  //       padding: 18px;
+  //       border-radius: $brr-big;
+  //       border: $br-orange;
+  //       width: 74px;
+  //       height: 74px;
+  //     }
+  //     &__open {
+  //       background-color: $orange;
+  //       display: none;
+  //     }
+
+  //     &__item.active .faq__open {
+  //       display: inline-block;
+  //     }
+
+  //     &__item.active .faq__close {
+  //       display: none;
+  //     }
+
+  //     &__info {
+  //       padding-bottom: 38px;
+  //       margin: 0 auto;
+  //       max-width: 760px;
+  //       width: 100%;
+
+  //       display: none;
+  //     }
+
+  //     &__item.active .faq__info {
+  //       display: block;
+  //     }
+  //   }
+
+  .about-page-form {
+    margin-top: 120px;
+  }
+}
